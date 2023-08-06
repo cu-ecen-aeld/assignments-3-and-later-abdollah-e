@@ -13,7 +13,6 @@ dirPath=$(dirname "$writeFile")
 fileName=$(basename "$writeFile")
 
 
-
 if [ ! -d "$dirPath" ] ; then 
     echo "writer: Directory does not exist - creating drirectory structure..."
     mkdir -p "$dirPath"
