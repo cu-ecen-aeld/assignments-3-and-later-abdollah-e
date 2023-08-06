@@ -4,9 +4,9 @@
 OBJ_NAME=writer
 
 default : writer.c 
-	$(CROSS_COMPILE)gcc writer.c -g -o $(OBJ_NAME).o
+	$(CROSS_COMPILE)gcc writer.c -g -o $(OBJ_NAME)
 		
 clean:
-	rm -f *.o	
+	rm -f $(OBJ_NAME)	
 	
 	
